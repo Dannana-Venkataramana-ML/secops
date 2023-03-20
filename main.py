@@ -12,4 +12,4 @@ def index():
     return render_template_string(template)
 
 if __name__ =='__main__':
-    app.run()
+    app.run(port=5000)
