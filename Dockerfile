@@ -14,7 +14,7 @@ RUN pip3 install -r requirements.txt
 EXPOSE 5000
 
 # Set environment variable for Flask
-ENV FLASK_APP=app.py
+ENV FLASK_APP=main.py
 
 # Run the command to start the Flask app
 CMD ["flask", "run", "--host=0.0.0.0"]
